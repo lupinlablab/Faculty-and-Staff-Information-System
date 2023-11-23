@@ -1,0 +1,112 @@
+.containerB{
+    width: 600px;
+    height: 590px;
+    box-shadow:
+    4px 0 10px rgba(0, 0, 0, 0.2),
+    0 4px 10px rgba(0, 0, 0, 0.2),  
+    4px 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: -40px;
+    margin-left: 160px;
+    position: relative;
+    top: 65px;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+li a i{
+    margin-left: 0px;
+}
+
+.profile img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+.changeProfileButton svg{
+    position: relative;
+    top: 110px;
+}
+
+.changeProfileButton input{
+    display: none;
+}
+
+.input1{
+    display: flex;
+    position:relative;
+    height: 40px;
+    width: 900px;
+    left: 90px;
+    top:100px;
+    
+}
+
+.input1 label{
+    font-size: 11px;
+    position: absolute;
+    left: 3px;
+    top: -17px;
+    
+}
+
+.input2 label{
+    font-size: 11px;
+    position: absolute;
+    left: 93px;
+    top: 303px;
+    
+}
+
+.input3 label{
+    font-size: 11px;
+    position: absolute;
+    left: 93px;
+    top: 373px;
+    
+}
+
+
+
+
+
+#fname,#age,#gmail{
+    box-shadow:
+    4px 0 10px rgb(7, 107, 141),
+    0 4px 10px rgb(19, 125, 160),  
+    4px 0 10px rgb(25, 153, 196);
+    width: 410px;
+
+}
+
+#age {
+    position: relative;
+    left: 90px;
+    top: 130px;
+}
+
+#gmail{
+    position: relative;
+    left: 90px;
+    top: 163px;
+}
+
+#editBtn{
+    position: relative;
+    top: 220px;
+    left: 220px;
+}
+
+#backBtn{
+    position: relative;
+    top: 220px;
+    left: 220px;
+    right: 220px;
+}
