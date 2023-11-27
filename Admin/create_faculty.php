@@ -14,7 +14,7 @@
              $conn = new mysqli("localhost", "root", "", "faculty_system");
 
 
-             $sql = "INSERT INTO faculties (lastname,name,email_add,contact_num,department) VALUES ('$lastname','$name','$email_add','$contact_num','$department')";
+             $sql = "INSERT INTO faculties (lastname,name,email_add,contact_num,department) VALUES ('$lastname','$name','$email_add','$contact_num','$department') ORDER BY DESC";
 
              mysqli_query($conn,$sql);
          }

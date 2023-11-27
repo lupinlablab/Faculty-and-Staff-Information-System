@@ -13,7 +13,7 @@
              $conn = new mysqli("localhost", "root", "", "faculty_system");
 
 
-             $sql = "INSERT INTO staff (lastname,name,email_add,contact_num,job) VALUES ('$lastname','$name','$email_add','$contact_num','$job')";
+             $sql = "INSERT INTO staff (lastname,name,email_add,contact_num,job) VALUES ('$lastname','$name','$email_add','$contact_num','$job') ORDER BY DESC";
 
              mysqli_query($conn,$sql);
          }

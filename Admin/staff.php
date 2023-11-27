@@ -30,7 +30,7 @@
 
   <?php
 
-            $sql = "SELECT * FROM staff";
+            $sql = "SELECT * FROM staff ORDER BY DESC";
 
             $result = mysqli_query($conn,$sql);
 
